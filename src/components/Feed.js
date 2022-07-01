@@ -16,10 +16,9 @@ function Feed() {
   return (
     <div className="feed">
       <div className="feed_header">
-        {/* Header */}
         <h2>Home</h2>
-        {/* TweetBox */}
         <TweetBox />
+
         {posts.map((post) => (
           <Post
             displayName={post.displayName}
@@ -30,10 +29,6 @@ function Feed() {
             image={post.image}
           />
         ))}
-        {/* Post */}
-        {/* Post */}
-        {/* Post */}
-        {/* Post */}
       </div>
     </div>
   );
